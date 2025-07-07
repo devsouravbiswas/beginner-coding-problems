@@ -11,13 +11,28 @@ public class Main {
         System.out.println("Enter 3rd number");
         int c = in.nextInt();
 
-        int max = a;
-        if (b > max){
-            max = b;
-        }
-        if (c > max){
-            max = c;
-        }
+        // Solution -1
+//        int max = a;
+//        if (b > max){
+//            max = b;
+//        }
+//        if (c > max){
+//            max = c;
+//        }
+//
+//        // Solution -2
+//        int max = 0;
+//        if (a>b){
+//            max = a;
+//        } else {
+//            max = b;
+//        }
+//        if (c > max){
+//            max = c;
+//        }
+
+        // Solution -3
+        int max = Math.max(c, Math.max(a ,b));
         System.out.println("Largest Number is " + max);
     }
 }
