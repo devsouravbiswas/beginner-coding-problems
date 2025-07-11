@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Q: Write a program to count the number of times a particular digit appears in a given integer.
+// Q: Write a program to count the number of times a particular digit appears in a given integer
 
 public class Main {
     public static void main(String[] args) {
